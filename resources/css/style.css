@@ -3,20 +3,50 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  position: fixed;
 }
 .logo{
   color: MediumAquamarine;
-  display: inline-block;
-}
-h1{
-  display: inline-block;
 }
 .navigation{
-  display: inline-block;
+
 }
 ul{
   list-style: none;
 }
 li{
   display: inline;
+}
+.left{
+
+}
+.mainstory{
+
+}
+.wine{
+
+}
+.caption{
+
+}
+.orca{
+
+}
+.burger{
+
+}
+.center{
+
+}
+.fbi{
+
+}
+.right{
+
+}
+.bites{
+
+}
+.navigation2{
+
 }
