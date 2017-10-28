@@ -7,12 +7,13 @@
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: thin;
+  width: 1170px;
 }
 .logo{
   color: MediumAquamarine;
 }
 .navigation{
-
+  z-index: 20;
 }
 ul{
   list-style: none;
@@ -20,56 +21,82 @@ ul{
 li{
   display: inline;
 }
-.page{
+.content{
   display: flex;
+  position: relative;
+  top: 100px;
+  width: 100%;
 }
 .left{
-border: medium solid blue;
-display: flex;
-flex-direction: column;
-width: 630px;
+  border: medium solid blue;
+  display: flex;
+  flex-direction: column;
+  width: 630px;
 }
 .mainstory{
-border: thin solid blue;
+  border: thin solid blue;
 }
 .wine{
-background-image: url("../resources/images/img-story-main-wine.png");
+  background: url(../images/img-story-main-wine.png);
+  border: 50px solid blue;
 }
 .caption{
-
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
 }
-.winestory{
-
+#main{
+  font-size: 40px;
+  padding-top: 0;
+}
+.story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .orca{
-border: thin solid blue;
+  border: thin solid blue;
+}
+.earth{
+  background-image: url("../images/img-story-2-fall.png");
+  border: thin solid blue;
 }
 .burger{
-border: thin solid blue;
+  border: thin solid blue;
+}
+.camera{
+  background-image: url("../images/img-story-3-camera.png");
+  border: thin solid blue;
 }
 .center{
-border: medium solid red;
-display: flex;
-flex-direction: column;
-width: 300px;
+  border: medium solid red;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 .fbi{
-border: thin solid red;
+  border: thin solid red;
+}
+.cat{
+  background-image: url("../images/img-story-1-cat.png");
+  border: thin solid red;
 }
 .right{
-border: medium solid purple;
-display: flex;
-flex-direction: column;
-width: 240px;
+  border: medium solid purple;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
 }
 .bites{
-border: thin solid purple;
+  border: thin solid purple;
 }
 .navigation2{
 
 }
 .footer{
-border: medium solid green;
+  border: medium solid green;
+
 }
 .navigation3{
 
