@@ -4,6 +4,9 @@
   font-weight: bold;
   display: flex;
   position: fixed;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: thin;
 }
 .logo{
   color: MediumAquamarine;
@@ -17,36 +20,57 @@ ul{
 li{
   display: inline;
 }
+.page{
+  display: flex;
+}
 .left{
-
+border: medium solid blue;
+display: flex;
+flex-direction: column;
+width: 630px;
 }
 .mainstory{
-
+border: thin solid blue;
 }
 .wine{
-
+background-image: url("../resources/images/img-story-main-wine.png");
 }
 .caption{
 
 }
-.orca{
+.winestory{
 
+}
+.orca{
+border: thin solid blue;
 }
 .burger{
-
+border: thin solid blue;
 }
 .center{
-
+border: medium solid red;
+display: flex;
+flex-direction: column;
+width: 300px;
 }
 .fbi{
-
+border: thin solid red;
 }
 .right{
-
+border: medium solid purple;
+display: flex;
+flex-direction: column;
+width: 240px;
 }
 .bites{
-
+border: thin solid purple;
 }
 .navigation2{
+
+}
+.footer{
+border: medium solid green;
+}
+.navigation3{
 
 }
