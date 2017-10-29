@@ -38,36 +38,53 @@ li{
 }
 .wine{
   background: url(../images/img-story-main-wine.png);
-  border: 50px solid blue;
+  border: thin solid blue;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .caption{
   font-family: Georgia;
   font-weight: bold;
   color: white;
   font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 150px;
+  text-align: center;
 }
 #main{
   font-size: 40px;
-  padding-top: 0;
+  text-align: left;
 }
 .story{
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
+.wordstories{
+  display:inline-flex;
+}
 .orca{
-  border: thin solid blue;
+  width: 300px;
+  margin: 10px 5px;
+}
+.burger{
+  width: 300px;
+  margin: 10px 5px;
+}
+.photostories{
+  display:inline-flex;
 }
 .earth{
   background-image: url("../images/img-story-2-fall.png");
-  border: thin solid blue;
-}
-.burger{
-  border: thin solid blue;
+  width: 300px;
+  margin: 10px 5px;
+  background-repeat: no-repeat;
 }
 .camera{
   background-image: url("../images/img-story-3-camera.png");
-  border: thin solid blue;
+  width: 300px;
+  margin: 10px 5px;
+  background-repeat: no-repeat;
 }
 .center{
   border: medium solid red;
@@ -77,27 +94,75 @@ li{
 }
 .fbi{
   border: thin solid red;
+  width: 280px;
+  margin: 10px 10px;
 }
 .cat{
   background-image: url("../images/img-story-1-cat.png");
   border: thin solid red;
+  width: 280px;
+  margin: 10px 10px;
+}
+.brooklyn{
+  border: thin solid red;
+  width: 280px;
+  margin: 10px 10px;
 }
 .right{
   border: medium solid purple;
   display: flex;
   flex-direction: column;
   width: 240px;
+  margin: 0 0;
+}
+h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 .bites{
   border: thin solid purple;
 }
-.navigation2{
-
+.navigation2 li{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: thin solid black;
+  min-height: inherit;
+  display: list-item;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .footer{
+  display: flex-inline;
+  align-items: center;
+  justify-content: center;
   border: medium solid green;
-
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 800px;
+  position: absolute;;
+}
+.footertop{
+  display: flex-inline;
+  flex-direction: row;
+}
+.footertop h3{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  width: 100px;
+  border-right: medium solid white;
+  padding-right: 10px;
 }
 .navigation3{
-
+  position: relative;
+}
+.footer p{
+  text-align: center;
 }
