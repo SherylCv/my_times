@@ -26,6 +26,7 @@ li{
   position: relative;
   top: 100px;
   width: 100%;
+  z-index: 5;
 }
 .left{
   border: medium solid blue;
